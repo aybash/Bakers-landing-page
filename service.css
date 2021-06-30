@@ -1,0 +1,74 @@
+/*Global styling-------------------------
+*/
+* {margin:0;
+padding:0;
+border:0;
+}
+
+body{background:#ada3a3;}
+
+a{text-decoration: none;
+    cursor:pointer;}
+
+li{list-style-type: none;}
+
+img{width:100%;}
+
+
+/*main-container stylying*/
+
+h1{text-align: center;
+    color:maroon;}
+
+.main-container{
+             background: white;
+             max-width: 765px;
+            margin: 0 auto;}
+
+.Price-container{
+                 display:flex;
+                flex-direction: column;
+                max-width: 300px;
+                margin:0 auto;
+              }
+
+.price-card{border: 2px solid; 
+            border-radius: 20px;
+            padding:20px;
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            margin: 15px 15px 0 0;
+}
+.image-style{
+            height:250px;
+            overflow: hidden;
+            width:100%;
+            }
+.doughnut-image img{height:auto;
+            }
+
+.btn{border:2px solid #ada3a3;
+    padding:3px;
+background: #1565dd;
+color:#ffffff;
+border-radius: 10px;
+}
+
+
+@media screen and (min-width: 600px){
+    .Price-container{
+        display:flex;
+       flex-direction: row;
+       max-width: 300px;
+       
+     }
+     .price-card{border: 2px solid; 
+        border-radius: 20px;
+        padding:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+                margin: 15px 15px 0 0;}
+
+}
